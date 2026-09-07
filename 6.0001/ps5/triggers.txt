@@ -1,0 +1,25 @@
+// trigger file - updated for current news 2026
+
+// title triggers
+t1,TITLE,Trump
+t2,TITLE,AI
+t3,TITLE,election
+t4,TITLE,war
+
+// description triggers
+t5,DESCRIPTION,president
+t6,DESCRIPTION,artificial intelligence
+t7,DESCRIPTION,Ukraine
+t8,DESCRIPTION,economy
+
+// time trigger - stories after Jan 1 2026
+t9,AFTER,1 Jan 2026 00:00:00
+
+// composite triggers - topic AND recent
+t10,AND,t1,t9
+t11,AND,t2,t9
+t12,AND,t3,t9
+t13,AND,t4,t9
+
+// ADD the triggers you want active
+ADD,t10,t11,t12,t13
