@@ -4,5 +4,5 @@ Planned self-study course following 6.0001.
 
 ## Status
 
-Not started yet.
+In Progress
 
